@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="container">
+      <div class="img-cont">
+        <img src="./img/jacinto-1.jpg" alt="music"/>
+      </div>
+      <div class="content">
+  <div class="music-title-cont">
+      <div class="music-title">
+            <div>
+                <h1 id="title">Blast</h1>
+                <span id="artist">Jaydee</span>
+            </div> 
+    
+      </div>
+    </div> 
+    <div class="track">
+    <audio src="./music/jacinto-1.mp3"></audio>
+</div>
+      <div class="control">
+        <span id="currentTime" class="duration">0.00</span>
+        <span id="duration" class="duration">2.06</span>
+      </div>
+      <div id="progress" class="progress">
+        <span id="dura"></span>
+      </div>
+    
+      <div class="control-buttons-group">
+        <div class="buttons">
+          <button><i id="prev-btn" class="fa-solid fa-backward prev-btn"></i></button>
+          <button><i id="play-btn" class="fa-solid fa-play play-btn"></i></button>
+          <button><i id="next-btn" class="fa-solid fa-forward next-btn"></i></button>
+        </div>
+       
+      </div>
+      </div>
+      
+    </div>
+    <script src="./script.js""></script>
+</body>
+</html>

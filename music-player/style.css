@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 *,
 *::before,
 *::after {
@@ -16,7 +17,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 html {
@@ -31,7 +32,7 @@ html {
   margin: 0 1.5rem;
   border-radius: 15px;
 }
-.img-cont img{
+/* .img-cont img{
   width: 80%;
   height: 260px;
   border-radius: 15px;
@@ -42,7 +43,7 @@ html {
   align-items: center;
   justify-content: center;
   position: absolute;
-}
+} */
 
 
 @media screen and (min-width: 700px) {
